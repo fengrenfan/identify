@@ -1,0 +1,63 @@
+
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.imgbox {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	width: 100%;
+	height: 500px;
+}
+.imgbox ._img {
+	width: 100%;
+	height: 100%;
+}
+.imagebox .textList {
+	background-color: #fff;
+	height: 50%;
+	width: 100%;
+	text-align: center;
+}
+.textList > ._ul > ._li {
+	text-align: center;
+	height: 30px;
+	background-color: #fff;
+	line-height: 30px;
+	border-bottom: 1px dashed #ccc;
+}
+.text-area {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.title {
+	font-size: 36rpx;
+	color: #8f8f94;
+}
+
